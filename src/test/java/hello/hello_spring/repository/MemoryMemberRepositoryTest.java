@@ -9,6 +9,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MemoryMemberRepositoryTest {
+    // repository의 각 메서드를 테스트하는 클래스?
     MemoryMemberRepository repository = new MemoryMemberRepository();
 
     @AfterEach
